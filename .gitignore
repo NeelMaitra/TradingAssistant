@@ -1,0 +1,13 @@
+# personal settings and secrets
+config.json
+trader/
+.env
+
+# generated
+out/*
+!out/.gitkeep
+data/cache/
+__pycache__/
+*.pyc
+.DS_Store
+tests/fixtures/

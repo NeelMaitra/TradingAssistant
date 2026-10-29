@@ -1,0 +1,37 @@
+{
+  "sec_user_agent": "Your Name you@example.com",
+
+  "account_size": 10000,
+  "risk_per_trade_pct": 0.5,
+  "max_position_pct": 25,
+  "max_contracts": 2,
+  "min_reward_risk": 2.0,
+
+  "universe": {
+    "sp500": true,
+    "nasdaq100": true,
+    "sector_etfs": true,
+    "index_etfs": true,
+    "futures": true,
+    "watchlist": [],
+    "min_price": 5.0,
+    "min_avg_dollar_volume": 20000000
+  },
+
+  "weights": {
+    "regime": 20,
+    "trend": 20,
+    "setup": 20,
+    "participation": 10,
+    "catalyst": 15,
+    "fundamentals": 15
+  },
+  "grades": {"A": 75, "B": 60, "C": 45},
+
+  "intraday": {
+    "opening_range_minutes": 15,
+    "watchlist_size": 15
+  },
+
+  "paper": true
+}

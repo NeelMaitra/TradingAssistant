@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m scanner:*)",
+      "Bash(python3 -m unittest:*)",
+      "Bash(python3 tests/make_fixtures.py)",
+      "Bash(python3 .claude/skills/trader-*:*)",
+      "WebFetch(domain:sec.gov)",
+      "WebFetch(domain:finance.yahoo.com)",
+      "WebFetch(domain:nasdaq.com)",
+      "WebFetch(domain:cnbc.com)",
+      "WebFetch(domain:marketwatch.com)"
+    ],
+    "ask": [
+      "Bash(python3 -m scanner orders:*)"
+    ]
+  }
+}

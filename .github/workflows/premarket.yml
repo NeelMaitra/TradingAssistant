@@ -1,0 +1,30 @@
+name: premarket scan
+
+# Runs the morning scan on GitHub's servers and keeps the dashboard as a build artifact.
+# 12:40 UTC = 8:40 ET during daylight time (7:40 ET in winter). Turn on by uncommenting the schedule.
+# Needs a repo secret SEC_USER_AGENT ("Your Name you@example.com") for 8-Ks and fundamentals.
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "40 12 * * 1-5"
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Premarket scan
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python -m scanner premarket --no-log
+      - uses: actions/upload-artifact@v4
+        with:
+          name: premarket-${{ github.run_id }}
+          path: |
+            out/dashboard.html
+            out/premarket.md
+            out/scan.json

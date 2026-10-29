@@ -1,0 +1,8 @@
+{
+  "sec_user_agent": "Test Runner tests@example.org",
+  "account_size": 25000,
+  "risk_per_trade_pct": 0.5,
+  "universe": {"sp500": false, "nasdaq100": false,
+               "watchlist": ["AAPL", "NVDA", "TSLA", "INTC", "KO", "MSFT", "JPM", "XOM"]},
+  "inplay": {"rss_feeds": ["https://example.com/markets.rss"]}
+}
