@@ -1,9 +1,9 @@
 finding stocks in play (news feeds, screeners, live 8-Ks)...
-loading daily bars for 591 symbols...
+loading daily bars for 590 symbols...
 checking the earnings calendar...
 checking news, 8-Ks and fundamentals for 41 shortlisted setups...
-loading intraday levels for the 24-name watchlist...
-CONFLUENCE SCAN  2026-10-29T13:29:04-04:00  (bars through 2026-10-28, market open)
+loading intraday levels for the 23-name watchlist...
+CONFLUENCE SCAN  2026-10-29T13:31:37-04:00  (bars through 2026-10-28, market open)
 
 REGIME: Neutral (+0.28)
   - SPY uptrend (above 20 EMA, 20 EMA above 50 SMA, above 200 SMA)
@@ -18,19 +18,19 @@ TOP SETUPS
   Gr Sym    Setup           Dir   Score      Entry      Stop        2R  Size               Flags
   B  EBAY   pullback        long     72     119.24    115.43    126.86  13 sh ($50 risk)   
   B  PNR    overbought_fade short    70      64.37     67.27     58.57  17 sh ($49 risk)   
-  B  MRNA   pullback        long     69     219.23    177.39    302.93  1 sh ($42 risk)    wide stop (1.9 ATR)
+  B  HLT    pullback        long     69     352.65    336.19    385.58  3 sh ($49 risk)    wide stop (2.0 ATR)
   B  MCK    oversold_bounce long     69     960.56    927.35   1026.99  1 sh ($33 risk)    
   B  LII    gap_down        short    68     325.00    353.88    267.23  1 sh ($29 risk)    wide stop (2.1 ATR)
-  B  XLP    pullback        long     68      87.14     85.86     89.69  28 sh ($36 risk)   
-  B  HLT    pullback        long     68     352.65    336.19    385.58  3 sh ($49 risk)    wide stop (2.0 ATR)
+  B  MRNA   pullback        long     68     219.23    177.39    302.93  1 sh ($42 risk)    wide stop (1.9 ATR)
   B  LH     gap_go          long     68     371.48    347.64    419.14  2 sh ($48 risk)    wide stop (2.5 ATR)
   B  IQV    pullback        long     67     282.87    265.71    317.20  2 sh ($34 risk)    wide stop (1.9 ATR)
   B  VRT    overbought_fade short    66     242.94    263.11    202.60  2 sh ($40 risk)    
-  B  PG     pullback        long     66     159.72    155.42    168.32  11 sh ($47 risk)   
-  B  HCA    pullback        long     65     466.82    438.34    523.79  1 sh ($28 risk)    wide stop (1.9 ATR)
+  B  XLP    pullback        long     66      87.14     85.86     89.69  28 sh ($36 risk)   
+  B  HCA    pullback        long     66     466.82    438.34    523.79  1 sh ($28 risk)    wide stop (1.9 ATR)
+  B  TECH   pullback        long     65      72.73     72.53     73.11  34 sh ($7 risk)    
+  B  PG     pullback        long     65     159.72    155.42    168.32  11 sh ($47 risk)   
   B  KO     pullback        long     65      92.44     90.42     96.48  24 sh ($48 risk)   
-  B  V      pullback        long     64     405.04    393.30    428.50  4 sh ($47 risk)    
-  B  GRMN   oversold_bounce long     64     272.51    259.02    299.49  3 sh ($40 risk)    
+  B  PTC    breakout        long     65     196.20    192.70    203.20  12 sh ($42 risk)   
 
 STOCKS IN PLAY
   CHRW   score 1.00 short   chg -7.2  rvol 2.2    
@@ -39,87 +39,86 @@ STOCKS IN PLAY
   FLEX   score 1.00 long    chg 7.4  rvol 2.5    
   GEHC   score 1.00 long    chg 6.9  rvol 2.8    
   LII    score 1.00 short   chg -6.2  rvol 4.2    
+  VRT    score 1.00 long    chg 16.5  rvol 3.3    
   FTV    score 0.95 long    chg 6.0  rvol 2.8    
   NXPI   score 0.94 short   chg -6.1  rvol 2.7    
   IP     score 0.94 short   chg -6.7  rvol 2.1    
   SW     score 0.93 short   chg -5.8  rvol 2.7    
   PPG    score 0.85 long    chg 5.1  rvol 2.8    
-  HOOD   score 0.82 short   chg -5.6  rvol 2.0    
 
-INTRADAY  2026-10-29T13:30:06-04:00  (open)
-  SPY 768.57 (-0.49%) below VWAP 768.71
-  HCA    [B long]    last 474.34  chg 2.41%  RS 2.90  rvol 1.85  VWAP 473.22
+INTRADAY  2026-10-29T13:32:36-04:00  (open)
+  SPY 768.56 (-0.49%) below VWAP 768.71
+  HCA    [B long]    last 474.39  chg 2.42%  RS 2.91  rvol 1.83  VWAP 473.23
          levels: PDH 466.08  PDL 445.00  PDC 463.18  PMH 472.00  PML 451.99  HOD 477.85  LOD 464.92  ORH 472.74  ORL 464.92
-         **ALIGNED** orb_long long entry 472.74 stop 464.92 2R 488.37  q 0.80  5 sh ($39 risk)
-         **ALIGNED** pmh_break long entry 472.00 stop 469.94 2R 476.12  q 0.80  5 sh ($10 risk)
-  LII    [B short]   last 340.10  chg 2.31%  RS 2.80  rvol 1.90  VWAP 336.66
+         **ALIGNED** orb_long long entry 472.74 stop 464.92 2R 488.37  q 0.77  5 sh ($39 risk)
+         **ALIGNED** pmh_break long entry 472.00 stop 470.03 2R 475.94  q 0.77  5 sh ($10 risk)
+  TECH   [B long]    last 72.72  chg 0.03%  RS 0.52  rvol 0.96  VWAP 72.69
+         levels: PDH 72.72  PDL 72.61  PDC 72.69  PMH 72.68  PML 72.66  HOD 72.73  LOD 72.64  ORH 72.72  ORL 72.64
+         **ALIGNED** pmh_break long entry 72.68 stop 72.66 2R 72.72  q 0.65  34 sh ($1 risk)
+  LII    [B short]   last 339.75  chg 2.21%  RS 2.70  rvol 1.91  VWAP 336.67
          levels: PDH 353.18  PDL 325.70  PDC 332.41  PMH 334.18  PML 327.49  HOD 340.45  LOD 322.00  ORH 334.42  ORL 322.00
-         trigger orb_long long entry 334.42 stop 322.00 2R 359.26  q 0.84  4 sh ($50 risk)
-         trigger pmh_break long entry 334.18 stop 332.24 2R 338.06  q 0.84  7 sh ($14 risk)
-  PNR    [B short]   last 65.83  chg 2.28%  RS 2.77  rvol 1.41  VWAP 65.66
+         trigger orb_long long entry 334.42 stop 322.00 2R 359.26  q 0.85  4 sh ($50 risk)
+         trigger pmh_break long entry 334.18 stop 332.27 2R 338.01  q 0.85  7 sh ($13 risk)
+  PNR    [B short]   last 65.81  chg 2.25%  RS 2.74  rvol 1.40  VWAP 65.66
          levels: PDH 65.56  PDL 62.75  PDC 64.36  PMH 66.50  PML 64.59  HOD 66.17  LOD 64.64  ORH 65.66  ORL 64.64
          trigger orb_long long entry 65.66 stop 64.64 2R 67.71  q 0.84  38 sh ($39 risk)
-         trigger pdh_break long entry 65.56 stop 65.30 2R 66.10  q 0.84  38 sh ($10 risk)
-  FTV    [- long]    last 65.37  chg 1.93%  RS 2.42  rvol 1.51  VWAP 64.86
-         levels: PDH 67.03  PDL 63.19  PDC 64.13  HOD 65.38  LOD 64.09  ORH 65.21  ORL 64.40
-         trigger orb_long long entry 65.21 stop 64.83 2R 65.98  q 0.75  38 sh ($15 risk)
-  FFIV   [- short]   last 363.99  chg -0.44%  RS 0.05  rvol 2.34  VWAP 364.19
-         levels: PDH 429.46  PDL 361.78  PDC 365.59  PMH 365.00  PML 360.02  HOD 372.00  LOD 350.43  ORH 360.77  ORL 350.43
-         trigger vwap_loss short entry 363.99 stop 365.29 2R 361.39  q 0.75  6 sh ($8 risk)
-  CSGP   [- short]   last 28.07  chg 1.83%  RS 2.32  rvol 0.95  VWAP 27.66
+         trigger pdh_break long entry 65.56 stop 65.31 2R 66.08  q 0.84  38 sh ($10 risk)
+  FTV    [- long]    last 65.35  chg 1.90%  RS 2.39  rvol 1.53  VWAP 64.86
+         levels: PDH 67.03  PDL 63.19  PDC 64.13  HOD 65.39  LOD 64.09  ORH 65.21  ORL 64.40
+         trigger orb_long long entry 65.21 stop 64.83 2R 65.96  q 0.76  38 sh ($14 risk)
+  CSGP   [- short]   last 28.07  chg 1.87%  RS 2.36  rvol 0.96  VWAP 27.66
          levels: PDH 30.68  PDL 26.86  PDC 27.56  PMH 27.91  PML 27.52  HOD 28.16  LOD 27.07  ORH 27.71  ORL 27.07
-         trigger orb_long long entry 27.71 stop 27.61 2R 27.91  q 0.74  90 sh ($9 risk)
-         trigger pmh_break long entry 27.91 stop 27.63 2R 28.47  q 0.74  89 sh ($25 risk)
-  NXPI   [- short]   last 261.86  chg 4.04%  RS 4.53  rvol 1.15  VWAP 256.10
-         levels: PDH 252.43  PDL 235.00  PDC 251.69  PMH 250.00  PML 247.80  HOD 262.13  LOD 246.60  ORH 250.09  ORL 246.60
-         trigger orb_long long entry 250.09 stop 246.60 2R 257.08  q 0.73  9 sh ($31 risk)
-         trigger pdh_break long entry 252.43 stop 250.62 2R 256.05  q 0.73  9 sh ($16 risk)
-         trigger pmh_break long entry 250.00 stop 248.19 2R 253.62  q 0.73  10 sh ($18 risk)
-  VRT    [B short]   last 250.46  chg 3.00%  RS 3.49  rvol 1.17  VWAP 247.60
+         trigger orb_long long entry 27.71 stop 27.62 2R 27.89  q 0.74  90 sh ($8 risk)
+         trigger pmh_break long entry 27.91 stop 27.64 2R 28.46  q 0.74  89 sh ($24 risk)
+  VRT    [B short]   last 250.34  chg 2.95%  RS 3.44  rvol 1.18  VWAP 247.61
          levels: PDH 245.31  PDL 228.81  PDC 243.17  PMH 242.94  PML 231.50  HOD 254.73  LOD 236.50  ORH 243.30  ORL 236.50
-         trigger orb_long long entry 243.30 stop 236.50 2R 256.90  q 0.70  7 sh ($48 risk)
-         trigger pdh_break long entry 245.31 stop 243.33 2R 249.27  q 0.70  10 sh ($20 risk)
-         trigger pmh_break long entry 242.94 stop 240.96 2R 246.90  q 0.70  10 sh ($20 risk)
-  MNQ    [- ]        last 29516.75  chg -1.58%  RS -1.09  rvol 1.18  VWAP 29553.43
+         trigger orb_long long entry 243.30 stop 236.50 2R 256.90  q 0.74  7 sh ($48 risk)
+         trigger pdh_break long entry 245.31 stop 243.40 2R 249.14  q 0.74  10 sh ($19 risk)
+         trigger pmh_break long entry 242.94 stop 241.03 2R 246.77  q 0.74  10 sh ($19 risk)
+  MNQ    [- ]        last 29515.00  chg -1.59%  RS -1.10  rvol 1.19  VWAP 29553.32
          levels: PDH 30009.25  PDL 29770.25  PDC 29992.00  PMH 29764.75  PML 29542.75  HOD 29676.75  LOD 29407.50  ORH 29630.75  ORL 29407.50
-         trigger pml_break short entry 29542.75 stop 29581.38 2R 29465.48  q 0.68  0 ct ($0 risk)
-  FLEX   [- long]    last 94.70  chg 1.80%  RS 2.29  rvol 0.93  VWAP 93.33
+         trigger pml_break short entry 29542.75 stop 29581.55 2R 29465.15  q 0.68  0 ct ($0 risk)
+  EBAY   [B long]    last 119.79  chg 1.54%  RS 2.03  rvol 2.48  VWAP 121.80
+         levels: PDH 119.07  PDL 115.78  PDC 117.97  PMH 125.78  PML 121.44  HOD 124.49  LOD 118.37  ORH 123.00  ORL 118.37
+         trigger pml_break short entry 121.44 stop 122.04 2R 120.25  q 0.68  20 sh ($12 risk)
+  FLEX   [- long]    last 94.56  chg 1.65%  RS 2.14  rvol 0.94  VWAP 93.34
          levels: PDH 93.73  PDL 83.76  PDC 93.03  PMH 91.00  PML 88.78  HOD 95.22  LOD 89.02  ORH 91.67  ORL 89.75
          trigger orb_long long entry 91.67 stop 89.75 2R 95.51  q 0.67  26 sh ($50 risk)
-         trigger pdh_break long entry 93.73 stop 93.23 2R 94.74  q 0.67  26 sh ($13 risk)
-         trigger pmh_break long entry 91.00 stop 90.23 2R 92.55  q 0.67  27 sh ($21 risk)
-  EBAY   [B long]    last 120.47  chg 2.12%  RS 2.61  rvol 2.47  VWAP 121.81
-         levels: PDH 119.07  PDL 115.78  PDC 117.97  PMH 125.78  PML 121.44  HOD 124.49  LOD 118.37  ORH 123.00  ORL 118.37
-         trigger pml_break short entry 121.44 stop 122.02 2R 120.28  q 0.61  20 sh ($12 risk)
-  MES    [- ]        last 7744.00  chg -0.52%  RS -0.03  rvol 1.12  VWAP 7749.51
+         trigger pdh_break long entry 93.73 stop 93.25 2R 94.71  q 0.67  26 sh ($13 risk)
+         trigger pmh_break long entry 91.00 stop 90.24 2R 92.52  q 0.67  27 sh ($21 risk)
+  MES    [- ]        last 7742.50  chg -0.54%  RS -0.05  rvol 1.12  VWAP 7749.49
          levels: PDH 7794.50  PDL 7752.00  PDC 7784.50  PMH 7774.50  PML 7743.50  HOD 7767.25  LOD 7732.25  ORH 7751.75  ORL 7732.25
          trigger pdl_break short entry 7752.00 stop 7764.06 2R 7727.88  q 0.54  0 ct ($0 risk)
-  XLP    [B long]    last 87.64  chg 0.90%  RS 1.39  rvol 1.26  VWAP 87.66
-         levels: PDH 87.08  PDL 86.36  PDC 86.86  PMH 88.32  PML 87.74  HOD 88.08  LOD 87.39  ORH 88.08  ORL 87.42
-         trigger pml_break short entry 87.74 stop 87.86 2R 87.51  q 0.51  28 sh ($3 risk)
-  MRNA   [B long]    last 218.21  chg 1.89%  RS 2.38  rvol 0.81  VWAP 220.74
-         levels: PDH 218.16  PDL 202.62  PDC 214.16  PMH 220.00  PML 213.56  HOD 225.00  LOD 215.38  ORH 222.48  ORL 215.38
-  MCK    [B long]    last 967.36  chg 0.85%  RS 1.34  rvol 1.74  VWAP 969.09
-         levels: PDH 970.92  PDL 954.05  PDC 959.17  PMH 960.56  PML 960.56  HOD 975.07  LOD 964.77  ORH 975.07  ORL 964.77
-  HLT    [B long]    last 354.94  chg 1.49%  RS 1.98  rvol 1.33  VWAP 357.08
-         levels: PDH 352.24  PDL 341.45  PDC 349.74  PMH 349.63  PML 349.63  HOD 359.46  LOD 352.25  ORH 358.95  ORL 354.50
-  LH     [B long]    last 360.43  chg -0.02%  RS 0.47  rvol 1.41  VWAP 360.91
-         levels: PDH 371.00  PDL 341.40  PDC 360.48  PMH 367.01  PML 364.00  HOD 363.81  LOD 351.58  ORH 363.81  ORL 351.58
-  IQV    [B long]    last 274.47  chg -1.66%  RS -1.17  rvol 2.05  VWAP 277.41
-         levels: PDH 282.42  PDL 269.00  PDC 279.10  HOD 279.36  LOD 274.22  ORH 279.36  ORL 274.39
-  PG     [B long]    last 159.20  chg 0.53%  RS 1.02  rvol 1.35  VWAP 159.17
+         trigger pml_break short entry 7743.50 stop 7751.00 2R 7728.50  q 0.54  1 ct ($38 risk)
+  PG     [B long]    last 159.12  chg 0.48%  RS 0.97  rvol 1.35  VWAP 159.17
          levels: PDH 159.57  PDL 157.40  PDC 158.37  PMH 160.88  PML 159.75  HOD 160.95  LOD 158.66  ORH 160.95  ORL 159.01
-  KO     [B long]    last 92.38  chg 0.56%  RS 1.05  rvol 0.81  VWAP 92.45
+         trigger vwap_loss short entry 159.12 stop 159.26 2R 158.85  q 0.51  15 sh ($2 risk)
+         trigger pml_break short entry 159.75 stop 160.02 2R 159.20  q 0.51  15 sh ($4 risk)
+  XLP    [B long]    last 87.62  chg 0.87%  RS 1.36  rvol 1.26  VWAP 87.66
+         levels: PDH 87.08  PDL 86.36  PDC 86.86  PMH 88.32  PML 87.74  HOD 88.08  LOD 87.39  ORH 88.08  ORL 87.42
+         trigger pml_break short entry 87.74 stop 87.85 2R 87.52  q 0.51  28 sh ($3 risk)
+  PTC    [B long]    last 194.19  chg -0.38%  RS 0.11  rvol 0.67  VWAP 194.24
+         levels: PDH 194.97  PDL 194.04  PDC 194.94  HOD 194.86  LOD 194.01  ORH 194.86  ORL 194.23
+         trigger orb_short short entry 194.23 stop 194.30 2R 194.08  q 0.45  12 sh ($1 risk)
+  HLT    [B long]    last 355.06  chg 1.52%  RS 2.01  rvol 1.33  VWAP 357.07
+         levels: PDH 352.24  PDL 341.45  PDC 349.74  PMH 349.63  PML 349.63  HOD 359.46  LOD 352.25  ORH 358.95  ORL 354.50
+  MCK    [B long]    last 967.33  chg 0.85%  RS 1.34  rvol 1.71  VWAP 969.09
+         levels: PDH 970.92  PDL 954.05  PDC 959.17  PMH 960.56  PML 960.56  HOD 975.07  LOD 964.77  ORH 975.07  ORL 964.77
+  MRNA   [B long]    last 218.60  chg 2.07%  RS 2.56  rvol 0.81  VWAP 220.74
+         levels: PDH 218.16  PDL 202.62  PDC 214.16  PMH 220.00  PML 213.56  HOD 225.00  LOD 215.38  ORH 222.48  ORL 215.38
+  LH     [B long]    last 360.35  chg -0.04%  RS 0.45  rvol 1.40  VWAP 360.90
+         levels: PDH 371.00  PDL 341.40  PDC 360.48  PMH 367.01  PML 364.00  HOD 363.81  LOD 351.58  ORH 363.81  ORL 351.58
+  IQV    [B long]    last 274.52  chg -1.64%  RS -1.15  rvol 2.05  VWAP 277.40
+         levels: PDH 282.42  PDL 269.00  PDC 279.10  HOD 279.36  LOD 274.22  ORH 279.36  ORL 274.39
+  KO     [B long]    last 92.36  chg 0.54%  RS 1.03  rvol 0.81  VWAP 92.45
          levels: PDH 92.36  PDL 90.58  PDC 91.86  PMH 93.57  PML 91.73  HOD 92.90  LOD 92.03  ORH 92.90  ORL 92.23
-  V      [B long]    last 409.51  chg 2.11%  RS 2.60  rvol 2.31  VWAP 410.37
-         levels: PDH 404.69  PDL 394.00  PDC 401.04  PMH 409.00  PML 400.60  HOD 412.13  LOD 403.72  ORH 411.77  ORL 403.72
-  GRMN   [B long]    last 281.02  chg 3.22%  RS 3.71  rvol 1.17  VWAP 279.02
-         levels: PDH 296.00  PDL 265.46  PDC 272.25  PMH 274.50  PML 274.50  HOD 283.07  LOD 273.70  ORH 281.10  ORL 273.70
-  CHRW   [- short]   last 126.54  chg -0.75%  RS -0.26  rvol 1.55  VWAP 126.33
+  CHRW   [- short]   last 126.66  chg -0.66%  RS -0.17  rvol 1.54  VWAP 126.33
          levels: PDH 136.09  PDL 125.62  PDC 127.50  PMH 127.17  PML 127.00  HOD 129.38  LOD 123.93  ORH 129.38  ORL 126.37
-  GEHC   [- long]    last 76.89  chg 1.38%  RS 1.87  rvol 1.15  VWAP 76.72
+  FFIV   [- short]   last 363.80  chg -0.49%  RS 0.00  rvol 2.35  VWAP 364.19
+         levels: PDH 429.46  PDL 361.78  PDC 365.59  PMH 365.00  PML 360.02  HOD 372.00  LOD 350.43  ORH 360.77  ORL 350.43
+  GEHC   [- long]    last 76.86  chg 1.34%  RS 1.83  rvol 1.16  VWAP 76.72
          levels: PDH 77.88  PDL 74.64  PDC 75.84  PMH 77.35  PML 75.92  HOD 77.33  LOD 75.40  ORH 76.97  ORL 75.40
 
-(6 data notes, see out/scan.json 'errors')
+(5 data notes, see out/scan.json 'errors')
 
 dashboard: /home/runner/work/TradingAssistant/TradingAssistant/out/dashboard.html
