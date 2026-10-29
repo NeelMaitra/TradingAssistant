@@ -1,0 +1,1877 @@
+{
+ "generated_at": "2026-10-29T13:30:06-04:00",
+ "phase": "open",
+ "spy": {
+  "symbol": "SPY",
+  "date": "2026-10-29",
+  "last": 768.5699,
+  "last_time": "13:30",
+  "phase": "regular",
+  "levels": {
+   "pdh": 773.36,
+   "pdl": 769.24,
+   "pdc": 772.35,
+   "pmh": 771.39,
+   "pml": 768.48,
+   "hod": 770.76,
+   "lod": 767.2653,
+   "orh": 769.17,
+   "orl": 767.2653
+  },
+  "triggers": [
+   {
+    "trigger": "pdl_break",
+    "direction": "short",
+    "entry": 769.24,
+    "stop": 770.3656,
+    "risk_per_share": 1.1256,
+    "targets": [
+     768.1144,
+     766.9888,
+     765.8632
+    ],
+    "reasons": [
+     "broke and holding below the prior day low 769.24"
+    ],
+    "setup": "pdl_break",
+    "risk_atr": null
+   }
+  ],
+  "plans": [],
+  "change_pct": -0.49,
+  "gap_pct": -0.46,
+  "vwap": 768.713,
+  "rvol": 2.3,
+  "score_long": 0.479,
+  "score_short": 0.712,
+  "above_vwap": false
+ },
+ "rows": [
+  {
+   "symbol": "HCA",
+   "date": "2026-10-29",
+   "last": 474.34,
+   "last_time": "13:29",
+   "phase": "regular",
+   "levels": {
+    "pdh": 466.08,
+    "pdl": 445.0,
+    "pdc": 463.18,
+    "pmh": 472.0,
+    "pml": 451.9868,
+    "hod": 477.85,
+    "lod": 464.92,
+    "orh": 472.735,
+    "orl": 464.92
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 472.735,
+     "stop": 464.92,
+     "risk_per_share": 7.815,
+     "targets": [
+      480.55,
+      488.365,
+      496.18
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 472.74 at 09:45, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": true,
+     "intraday_quality": 0.804,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 5,
+      "position_value": 2363.68,
+      "risk_total": 39.08,
+      "note": "capped at 25% of the account"
+     }
+    },
+    {
+     "trigger": "pmh_break",
+     "direction": "long",
+     "entry": 472.0,
+     "stop": 469.9425,
+     "risk_per_share": 2.0575,
+     "targets": [
+      474.0575,
+      476.1151,
+      478.1726
+     ],
+     "reasons": [
+      "broke and holding above the premarket high 472.00"
+     ],
+     "setup": "pmh_break",
+     "risk_atr": null,
+     "aligned": true,
+     "intraday_quality": 0.804,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 5,
+      "position_value": 2360.0,
+      "risk_total": 10.29,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 2.41,
+   "gap_pct": 1.34,
+   "rs_vs_spy": 2.9,
+   "vwap": 473.218,
+   "rvol": 1.85,
+   "score_long": 0.804,
+   "score_short": 0.254,
+   "above_vwap": true,
+   "display": "HCA",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 65.4,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 472.735,
+    "stop": 464.92,
+    "risk_per_share": 7.815,
+    "targets": [
+     480.55,
+     488.365,
+     496.18
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 472.74 at 09:45, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": true,
+    "intraday_quality": 0.804,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 5,
+     "position_value": 2363.68,
+     "risk_total": 39.08,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "LII",
+   "date": "2026-10-29",
+   "last": 340.1,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 353.18,
+    "pdl": 325.7,
+    "pdc": 332.41,
+    "pmh": 334.18,
+    "pml": 327.49,
+    "hod": 340.45,
+    "lod": 322.0,
+    "orh": 334.42,
+    "orl": 322.0
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 334.42,
+     "stop": 322.0,
+     "risk_per_share": 12.42,
+     "targets": [
+      346.84,
+      359.26,
+      371.68
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 334.42 at 09:45, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.845,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 4,
+      "position_value": 1337.68,
+      "risk_total": 49.68
+     }
+    },
+    {
+     "trigger": "pmh_break",
+     "direction": "long",
+     "entry": 334.18,
+     "stop": 332.2379,
+     "risk_per_share": 1.9421,
+     "targets": [
+      336.1221,
+      338.0643,
+      340.0064
+     ],
+     "reasons": [
+      "broke and holding above the premarket high 334.18"
+     ],
+     "setup": "pmh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.845,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 7,
+      "position_value": 2339.26,
+      "risk_total": 13.59,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 2.31,
+   "gap_pct": -2.23,
+   "rs_vs_spy": 2.8,
+   "vwap": 336.6631,
+   "rvol": 1.9,
+   "score_long": 0.845,
+   "score_short": 0.228,
+   "above_vwap": true,
+   "display": "LII",
+   "daily": {
+    "direction": "short",
+    "grade": "B",
+    "score": 68.3,
+    "setup": "gap_down",
+    "source": "daily setup"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 334.42,
+    "stop": 322.0,
+    "risk_per_share": 12.42,
+    "targets": [
+     346.84,
+     359.26,
+     371.68
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 334.42 at 09:45, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.845,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 4,
+     "position_value": 1337.68,
+     "risk_total": 49.68
+    }
+   }
+  },
+  {
+   "symbol": "PNR",
+   "date": "2026-10-29",
+   "last": 65.83,
+   "last_time": "13:29",
+   "phase": "regular",
+   "levels": {
+    "pdh": 65.565,
+    "pdl": 62.75,
+    "pdc": 64.36,
+    "pmh": 66.5,
+    "pml": 64.59,
+    "hod": 66.175,
+    "lod": 64.6374,
+    "orh": 65.66,
+    "orl": 64.6374
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 65.66,
+     "stop": 64.6374,
+     "risk_per_share": 1.0226,
+     "targets": [
+      66.6826,
+      67.7052,
+      68.7278
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 65.66 at 10:15, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.84,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 38,
+      "position_value": 2495.08,
+      "risk_total": 38.86,
+      "note": "capped at 25% of the account"
+     }
+    },
+    {
+     "trigger": "pdh_break",
+     "direction": "long",
+     "entry": 65.565,
+     "stop": 65.2982,
+     "risk_per_share": 0.2668,
+     "targets": [
+      65.8318,
+      66.0985,
+      66.3653
+     ],
+     "reasons": [
+      "broke and holding above the prior day high 65.56"
+     ],
+     "setup": "pdh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.84,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 38,
+      "position_value": 2491.47,
+      "risk_total": 10.14,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 2.28,
+   "gap_pct": 0.81,
+   "rs_vs_spy": 2.77,
+   "vwap": 65.6618,
+   "rvol": 1.41,
+   "score_long": 0.84,
+   "score_short": 0.09,
+   "above_vwap": true,
+   "display": "PNR",
+   "daily": {
+    "direction": "short",
+    "grade": "B",
+    "score": 69.5,
+    "setup": "overbought_fade",
+    "source": "daily setup"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 65.66,
+    "stop": 64.6374,
+    "risk_per_share": 1.0226,
+    "targets": [
+     66.6826,
+     67.7052,
+     68.7278
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 65.66 at 10:15, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.84,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 38,
+     "position_value": 2495.08,
+     "risk_total": 38.86,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "FTV",
+   "date": "2026-10-29",
+   "last": 65.37,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 67.03,
+    "pdl": 63.19,
+    "pdc": 64.13,
+    "hod": 65.38,
+    "lod": 64.09,
+    "orh": 65.21,
+    "orl": 64.4
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 65.21,
+     "stop": 64.8274,
+     "risk_per_share": 0.3826,
+     "targets": [
+      65.5926,
+      65.9752,
+      66.3578
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 65.21 at 12:00, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.754,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 38,
+      "position_value": 2477.98,
+      "risk_total": 14.54,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 1.93,
+   "gap_pct": 0.97,
+   "rs_vs_spy": 2.42,
+   "vwap": 64.8586,
+   "rvol": 1.51,
+   "score_long": 0.754,
+   "score_short": 0.204,
+   "above_vwap": true,
+   "display": "FTV",
+   "daily": {
+    "direction": "long",
+    "grade": null,
+    "score": null,
+    "setup": "in play",
+    "source": "in play"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 65.21,
+    "stop": 64.8274,
+    "risk_per_share": 0.3826,
+    "targets": [
+     65.5926,
+     65.9752,
+     66.3578
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 65.21 at 12:00, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.754,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 38,
+     "position_value": 2477.98,
+     "risk_total": 14.54,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "FFIV",
+   "date": "2026-10-29",
+   "last": 363.99,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 429.458,
+    "pdl": 361.78,
+    "pdc": 365.59,
+    "pmh": 365.0,
+    "pml": 360.02,
+    "hod": 372.0,
+    "lod": 350.431,
+    "orh": 360.77,
+    "orl": 350.431
+   },
+   "triggers": [
+    {
+     "trigger": "vwap_loss",
+     "direction": "short",
+     "entry": 363.99,
+     "stop": 365.2893,
+     "risk_per_share": 1.2993,
+     "targets": [
+      362.6907,
+      361.3914,
+      360.0921
+     ],
+     "reasons": [
+      "lost VWAP 364.19 and stayed under 2 bars"
+     ],
+     "setup": "vwap_loss",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.748,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 6,
+      "position_value": 2183.94,
+      "risk_total": 7.8,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": -0.44,
+   "gap_pct": -1.53,
+   "rs_vs_spy": 0.05,
+   "vwap": 364.1934,
+   "rvol": 2.34,
+   "score_long": 0.455,
+   "score_short": 0.748,
+   "above_vwap": false,
+   "display": "FFIV",
+   "daily": {
+    "direction": "short",
+    "grade": null,
+    "score": null,
+    "setup": "in play",
+    "source": "in play"
+   },
+   "best": {
+    "trigger": "vwap_loss",
+    "direction": "short",
+    "entry": 363.99,
+    "stop": 365.2893,
+    "risk_per_share": 1.2993,
+    "targets": [
+     362.6907,
+     361.3914,
+     360.0921
+    ],
+    "reasons": [
+     "lost VWAP 364.19 and stayed under 2 bars"
+    ],
+    "setup": "vwap_loss",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.748,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 6,
+     "position_value": 2183.94,
+     "risk_total": 7.8,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "CSGP",
+   "date": "2026-10-29",
+   "last": 28.065,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 30.675,
+    "pdl": 26.855,
+    "pdc": 27.56,
+    "pmh": 27.91,
+    "pml": 27.52,
+    "hod": 28.16,
+    "lod": 27.07,
+    "orh": 27.71,
+    "orl": 27.07
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 27.71,
+     "stop": 27.6125,
+     "risk_per_share": 0.0975,
+     "targets": [
+      27.8075,
+      27.905,
+      28.0024
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 27.71 at 09:50, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.739,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 90,
+      "position_value": 2493.9,
+      "risk_total": 8.78,
+      "note": "capped at 25% of the account"
+     }
+    },
+    {
+     "trigger": "pmh_break",
+     "direction": "long",
+     "entry": 27.91,
+     "stop": 27.6324,
+     "risk_per_share": 0.2776,
+     "targets": [
+      28.1876,
+      28.4652,
+      28.7428
+     ],
+     "reasons": [
+      "broke and holding above the premarket high 27.91"
+     ],
+     "setup": "pmh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.739,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 89,
+      "position_value": 2483.99,
+      "risk_total": 24.71,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 1.83,
+   "gap_pct": 0.34,
+   "rs_vs_spy": 2.32,
+   "vwap": 27.6568,
+   "rvol": 0.95,
+   "score_long": 0.739,
+   "score_short": 0.055,
+   "above_vwap": true,
+   "display": "CSGP",
+   "daily": {
+    "direction": "short",
+    "grade": null,
+    "score": null,
+    "setup": "in play",
+    "source": "in play"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 27.71,
+    "stop": 27.6125,
+    "risk_per_share": 0.0975,
+    "targets": [
+     27.8075,
+     27.905,
+     28.0024
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 27.71 at 09:50, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.739,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 90,
+     "position_value": 2493.9,
+     "risk_total": 8.78,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "NXPI",
+   "date": "2026-10-29",
+   "last": 261.86,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 252.43,
+    "pdl": 235.0,
+    "pdc": 251.69,
+    "pmh": 250.0,
+    "pml": 247.8,
+    "hod": 262.13,
+    "lod": 246.6,
+    "orh": 250.095,
+    "orl": 246.6
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 250.095,
+     "stop": 246.6,
+     "risk_per_share": 3.495,
+     "targets": [
+      253.59,
+      257.085,
+      260.58
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 250.09 at 09:55, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.735,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 9,
+      "position_value": 2250.86,
+      "risk_total": 31.46,
+      "note": "capped at 25% of the account"
+     }
+    },
+    {
+     "trigger": "pdh_break",
+     "direction": "long",
+     "entry": 252.43,
+     "stop": 250.6218,
+     "risk_per_share": 1.8082,
+     "targets": [
+      254.2382,
+      256.0465,
+      257.8547
+     ],
+     "reasons": [
+      "broke and holding above the prior day high 252.43"
+     ],
+     "setup": "pdh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.735,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 9,
+      "position_value": 2271.87,
+      "risk_total": 16.27,
+      "note": "capped at 25% of the account"
+     }
+    },
+    {
+     "trigger": "pmh_break",
+     "direction": "long",
+     "entry": 250.0,
+     "stop": 248.1918,
+     "risk_per_share": 1.8082,
+     "targets": [
+      251.8082,
+      253.6165,
+      255.4247
+     ],
+     "reasons": [
+      "broke and holding above the premarket high 250.00"
+     ],
+     "setup": "pmh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.735,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 10,
+      "position_value": 2500.0,
+      "risk_total": 18.08,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 4.04,
+   "gap_pct": -0.85,
+   "rs_vs_spy": 4.53,
+   "vwap": 256.0992,
+   "rvol": 1.15,
+   "score_long": 0.735,
+   "score_short": 0.118,
+   "above_vwap": true,
+   "display": "NXPI",
+   "daily": {
+    "direction": "short",
+    "grade": null,
+    "score": null,
+    "setup": "in play",
+    "source": "in play"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 250.095,
+    "stop": 246.6,
+    "risk_per_share": 3.495,
+    "targets": [
+     253.59,
+     257.085,
+     260.58
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 250.09 at 09:55, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.735,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 9,
+     "position_value": 2250.86,
+     "risk_total": 31.46,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "VRT",
+   "date": "2026-10-29",
+   "last": 250.46,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 245.31,
+    "pdl": 228.81,
+    "pdc": 243.17,
+    "pmh": 242.94,
+    "pml": 231.5,
+    "hod": 254.73,
+    "lod": 236.5,
+    "orh": 243.3,
+    "orl": 236.5
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 243.3,
+     "stop": 236.5,
+     "risk_per_share": 6.8,
+     "targets": [
+      250.1,
+      256.9,
+      263.7
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 243.30 at 09:55, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.704,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 7,
+      "position_value": 1703.1,
+      "risk_total": 47.6
+     }
+    },
+    {
+     "trigger": "pdh_break",
+     "direction": "long",
+     "entry": 245.31,
+     "stop": 243.3288,
+     "risk_per_share": 1.9812,
+     "targets": [
+      247.2912,
+      249.2724,
+      251.2536
+     ],
+     "reasons": [
+      "broke and holding above the prior day high 245.31"
+     ],
+     "setup": "pdh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.704,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 10,
+      "position_value": 2453.1,
+      "risk_total": 19.81,
+      "note": "capped at 25% of the account"
+     }
+    },
+    {
+     "trigger": "pmh_break",
+     "direction": "long",
+     "entry": 242.94,
+     "stop": 240.9588,
+     "risk_per_share": 1.9812,
+     "targets": [
+      244.9212,
+      246.9024,
+      248.8836
+     ],
+     "reasons": [
+      "broke and holding above the premarket high 242.94"
+     ],
+     "setup": "pmh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.704,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 10,
+      "position_value": 2429.4,
+      "risk_total": 19.81,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 3.0,
+   "gap_pct": -2.13,
+   "rs_vs_spy": 3.49,
+   "vwap": 247.5999,
+   "rvol": 1.17,
+   "score_long": 0.704,
+   "score_short": 0.154,
+   "above_vwap": true,
+   "display": "VRT",
+   "daily": {
+    "direction": "short",
+    "grade": "B",
+    "score": 66.1,
+    "setup": "overbought_fade",
+    "source": "daily setup"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 243.3,
+    "stop": 236.5,
+    "risk_per_share": 6.8,
+    "targets": [
+     250.1,
+     256.9,
+     263.7
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 243.30 at 09:55, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.704,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 7,
+     "position_value": 1703.1,
+     "risk_total": 47.6
+    }
+   }
+  },
+  {
+   "symbol": "MNQ=F",
+   "date": "2026-10-29",
+   "last": 29516.75,
+   "last_time": "13:20",
+   "phase": "regular",
+   "levels": {
+    "pdh": 30009.25,
+    "pdl": 29770.25,
+    "pdc": 29992.0,
+    "pmh": 29764.75,
+    "pml": 29542.75,
+    "hod": 29676.75,
+    "lod": 29407.5,
+    "orh": 29630.75,
+    "orl": 29407.5
+   },
+   "triggers": [
+    {
+     "trigger": "pml_break",
+     "direction": "short",
+     "entry": 29542.75,
+     "stop": 29581.3826,
+     "risk_per_share": 38.6326,
+     "targets": [
+      29504.1174,
+      29465.4847,
+      29426.8521
+     ],
+     "reasons": [
+      "broke and holding below the premarket low 29542.75"
+     ],
+     "setup": "pml_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.682,
+     "sizing": {
+      "risk_budget": 50.0,
+      "contracts": 0,
+      "risk_per_contract": 77.27,
+      "point_value": 2.0,
+      "note": "1 contract risks $77, over your $50 budget: skip or tighten",
+      "risk_total": 0.0
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": -1.58,
+   "gap_pct": -1.26,
+   "rs_vs_spy": -1.09,
+   "vwap": 29553.4337,
+   "rvol": 1.18,
+   "score_long": 0.179,
+   "score_short": 0.682,
+   "above_vwap": false,
+   "display": "MNQ",
+   "daily": {
+    "direction": null,
+    "grade": null,
+    "score": null,
+    "setup": "index future",
+    "source": "futures"
+   },
+   "best": {
+    "trigger": "pml_break",
+    "direction": "short",
+    "entry": 29542.75,
+    "stop": 29581.3826,
+    "risk_per_share": 38.6326,
+    "targets": [
+     29504.1174,
+     29465.4847,
+     29426.8521
+    ],
+    "reasons": [
+     "broke and holding below the premarket low 29542.75"
+    ],
+    "setup": "pml_break",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.682,
+    "sizing": {
+     "risk_budget": 50.0,
+     "contracts": 0,
+     "risk_per_contract": 77.27,
+     "point_value": 2.0,
+     "note": "1 contract risks $77, over your $50 budget: skip or tighten",
+     "risk_total": 0.0
+    }
+   }
+  },
+  {
+   "symbol": "FLEX",
+   "date": "2026-10-29",
+   "last": 94.705,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 93.735,
+    "pdl": 83.76,
+    "pdc": 93.03,
+    "pmh": 91.0,
+    "pml": 88.78,
+    "hod": 95.215,
+    "lod": 89.02,
+    "orh": 91.67,
+    "orl": 89.75
+   },
+   "triggers": [
+    {
+     "trigger": "orb_long",
+     "direction": "long",
+     "entry": 91.67,
+     "stop": 89.75,
+     "risk_per_share": 1.92,
+     "targets": [
+      93.59,
+      95.51,
+      97.43
+     ],
+     "reasons": [
+      "broke the 15-min opening range high 91.67 at 10:15, holding above VWAP"
+     ],
+     "setup": "orb_long",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.669,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 26,
+      "position_value": 2383.42,
+      "risk_total": 49.92
+     }
+    },
+    {
+     "trigger": "pdh_break",
+     "direction": "long",
+     "entry": 93.735,
+     "stop": 93.2337,
+     "risk_per_share": 0.5013,
+     "targets": [
+      94.2363,
+      94.7377,
+      95.239
+     ],
+     "reasons": [
+      "broke and holding above the prior day high 93.73"
+     ],
+     "setup": "pdh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.669,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 26,
+      "position_value": 2437.11,
+      "risk_total": 13.03,
+      "note": "capped at 25% of the account"
+     }
+    },
+    {
+     "trigger": "pmh_break",
+     "direction": "long",
+     "entry": 91.0,
+     "stop": 90.2269,
+     "risk_per_share": 0.7731,
+     "targets": [
+      91.7731,
+      92.5462,
+      93.3193
+     ],
+     "reasons": [
+      "broke and holding above the premarket high 91.00"
+     ],
+     "setup": "pmh_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.669,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 27,
+      "position_value": 2457.0,
+      "risk_total": 20.87,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 1.8,
+   "gap_pct": -2.55,
+   "rs_vs_spy": 2.29,
+   "vwap": 93.3303,
+   "rvol": 0.93,
+   "score_long": 0.669,
+   "score_short": 0.119,
+   "above_vwap": true,
+   "display": "FLEX",
+   "daily": {
+    "direction": "long",
+    "grade": null,
+    "score": null,
+    "setup": "in play",
+    "source": "in play"
+   },
+   "best": {
+    "trigger": "orb_long",
+    "direction": "long",
+    "entry": 91.67,
+    "stop": 89.75,
+    "risk_per_share": 1.92,
+    "targets": [
+     93.59,
+     95.51,
+     97.43
+    ],
+    "reasons": [
+     "broke the 15-min opening range high 91.67 at 10:15, holding above VWAP"
+    ],
+    "setup": "orb_long",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.669,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 26,
+     "position_value": 2383.42,
+     "risk_total": 49.92
+    }
+   }
+  },
+  {
+   "symbol": "EBAY",
+   "date": "2026-10-29",
+   "last": 120.47,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 119.07,
+    "pdl": 115.78,
+    "pdc": 117.97,
+    "pmh": 125.7813,
+    "pml": 121.441,
+    "hod": 124.49,
+    "lod": 118.37,
+    "orh": 123.0,
+    "orl": 118.37
+   },
+   "triggers": [
+    {
+     "trigger": "pml_break",
+     "direction": "short",
+     "entry": 121.441,
+     "stop": 122.0214,
+     "risk_per_share": 0.5804,
+     "targets": [
+      120.8606,
+      120.2802,
+      119.6998
+     ],
+     "reasons": [
+      "broke and holding below the premarket low 121.44"
+     ],
+     "setup": "pml_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.612,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 20,
+      "position_value": 2428.82,
+      "risk_total": 11.61,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 2.12,
+   "gap_pct": 3.38,
+   "rs_vs_spy": 2.61,
+   "vwap": 121.8058,
+   "rvol": 2.47,
+   "score_long": 0.629,
+   "score_short": 0.612,
+   "above_vwap": false,
+   "display": "EBAY",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 72.1,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": {
+    "trigger": "pml_break",
+    "direction": "short",
+    "entry": 121.441,
+    "stop": 122.0214,
+    "risk_per_share": 0.5804,
+    "targets": [
+     120.8606,
+     120.2802,
+     119.6998
+    ],
+    "reasons": [
+     "broke and holding below the premarket low 121.44"
+    ],
+    "setup": "pml_break",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.612,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 20,
+     "position_value": 2428.82,
+     "risk_total": 11.61,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "MES=F",
+   "date": "2026-10-29",
+   "last": 7744.0,
+   "last_time": "13:20",
+   "phase": "regular",
+   "levels": {
+    "pdh": 7794.5,
+    "pdl": 7752.0,
+    "pdc": 7784.5,
+    "pmh": 7774.5,
+    "pml": 7743.5,
+    "hod": 7767.25,
+    "lod": 7732.25,
+    "orh": 7751.75,
+    "orl": 7732.25
+   },
+   "triggers": [
+    {
+     "trigger": "pdl_break",
+     "direction": "short",
+     "entry": 7752.0,
+     "stop": 7764.0621,
+     "risk_per_share": 12.0621,
+     "targets": [
+      7739.9379,
+      7727.8759,
+      7715.8138
+     ],
+     "reasons": [
+      "broke and holding below the prior day low 7752.00"
+     ],
+     "setup": "pdl_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.541,
+     "sizing": {
+      "risk_budget": 50.0,
+      "contracts": 0,
+      "risk_per_contract": 60.31,
+      "point_value": 5.0,
+      "note": "1 contract risks $60, over your $50 budget: skip or tighten",
+      "risk_total": 0.0
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": -0.52,
+   "gap_pct": -0.48,
+   "rs_vs_spy": -0.03,
+   "vwap": 7749.5106,
+   "rvol": 1.12,
+   "score_long": 0.304,
+   "score_short": 0.541,
+   "above_vwap": false,
+   "display": "MES",
+   "daily": {
+    "direction": null,
+    "grade": null,
+    "score": null,
+    "setup": "index future",
+    "source": "futures"
+   },
+   "best": {
+    "trigger": "pdl_break",
+    "direction": "short",
+    "entry": 7752.0,
+    "stop": 7764.0621,
+    "risk_per_share": 12.0621,
+    "targets": [
+     7739.9379,
+     7727.8759,
+     7715.8138
+    ],
+    "reasons": [
+     "broke and holding below the prior day low 7752.00"
+    ],
+    "setup": "pdl_break",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.541,
+    "sizing": {
+     "risk_budget": 50.0,
+     "contracts": 0,
+     "risk_per_contract": 60.31,
+     "point_value": 5.0,
+     "note": "1 contract risks $60, over your $50 budget: skip or tighten",
+     "risk_total": 0.0
+    }
+   }
+  },
+  {
+   "symbol": "XLP",
+   "date": "2026-10-29",
+   "last": 87.64,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 87.08,
+    "pdl": 86.3638,
+    "pdc": 86.86,
+    "pmh": 88.32,
+    "pml": 87.74,
+    "hod": 88.08,
+    "lod": 87.395,
+    "orh": 88.08,
+    "orl": 87.42
+   },
+   "triggers": [
+    {
+     "trigger": "pml_break",
+     "direction": "short",
+     "entry": 87.74,
+     "stop": 87.8557,
+     "risk_per_share": 0.1157,
+     "targets": [
+      87.6243,
+      87.5086,
+      87.3929
+     ],
+     "reasons": [
+      "broke and holding below the premarket low 87.74"
+     ],
+     "setup": "pml_break",
+     "risk_atr": null,
+     "aligned": false,
+     "intraday_quality": 0.506,
+     "sizing": {
+      "risk_budget": 50.0,
+      "shares": 28,
+      "position_value": 2456.72,
+      "risk_total": 3.24,
+      "note": "capped at 25% of the account"
+     }
+    }
+   ],
+   "plans": [],
+   "change_pct": 0.9,
+   "gap_pct": 1.12,
+   "rs_vs_spy": 1.39,
+   "vwap": 87.6605,
+   "rvol": 1.26,
+   "score_long": 0.38,
+   "score_short": 0.506,
+   "above_vwap": false,
+   "display": "XLP",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 68.3,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": {
+    "trigger": "pml_break",
+    "direction": "short",
+    "entry": 87.74,
+    "stop": 87.8557,
+    "risk_per_share": 0.1157,
+    "targets": [
+     87.6243,
+     87.5086,
+     87.3929
+    ],
+    "reasons": [
+     "broke and holding below the premarket low 87.74"
+    ],
+    "setup": "pml_break",
+    "risk_atr": null,
+    "aligned": false,
+    "intraday_quality": 0.506,
+    "sizing": {
+     "risk_budget": 50.0,
+     "shares": 28,
+     "position_value": 2456.72,
+     "risk_total": 3.24,
+     "note": "capped at 25% of the account"
+    }
+   }
+  },
+  {
+   "symbol": "MRNA",
+   "date": "2026-10-29",
+   "last": 218.21,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 218.16,
+    "pdl": 202.62,
+    "pdc": 214.165,
+    "pmh": 220.0,
+    "pml": 213.56,
+    "hod": 225.0,
+    "lod": 215.38,
+    "orh": 222.48,
+    "orl": 215.38
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 1.89,
+   "gap_pct": 0.98,
+   "rs_vs_spy": 2.38,
+   "vwap": 220.7398,
+   "rvol": 0.81,
+   "score_long": 0.418,
+   "score_short": 0.335,
+   "above_vwap": false,
+   "display": "MRNA",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 69.1,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "MCK",
+   "date": "2026-10-29",
+   "last": 967.36,
+   "last_time": "13:29",
+   "phase": "regular",
+   "levels": {
+    "pdh": 970.925,
+    "pdl": 954.05,
+    "pdc": 959.17,
+    "pmh": 960.56,
+    "pml": 960.56,
+    "hod": 975.07,
+    "lod": 964.77,
+    "orh": 975.07,
+    "orl": 964.77
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 0.85,
+   "gap_pct": 1.65,
+   "rs_vs_spy": 1.34,
+   "vwap": 969.0935,
+   "rvol": 1.74,
+   "score_long": 0.48,
+   "score_short": 0.546,
+   "above_vwap": false,
+   "display": "MCK",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 68.8,
+    "setup": "oversold_bounce",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "HLT",
+   "date": "2026-10-29",
+   "last": 354.94,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 352.24,
+    "pdl": 341.45,
+    "pdc": 349.74,
+    "pmh": 349.63,
+    "pml": 349.63,
+    "hod": 359.46,
+    "lod": 352.25,
+    "orh": 358.95,
+    "orl": 354.5
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 1.49,
+   "gap_pct": 1.56,
+   "rs_vs_spy": 1.98,
+   "vwap": 357.0844,
+   "rvol": 1.33,
+   "score_long": 0.493,
+   "score_short": 0.413,
+   "above_vwap": false,
+   "display": "HLT",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 67.8,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "LH",
+   "date": "2026-10-29",
+   "last": 360.425,
+   "last_time": "13:29",
+   "phase": "regular",
+   "levels": {
+    "pdh": 371.0,
+    "pdl": 341.4,
+    "pdc": 360.48,
+    "pmh": 367.01,
+    "pml": 364.0,
+    "hod": 363.81,
+    "lod": 351.585,
+    "orh": 363.81,
+    "orl": 351.585
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": -0.02,
+   "gap_pct": -1.26,
+   "rs_vs_spy": 0.47,
+   "vwap": 360.907,
+   "rvol": 1.41,
+   "score_long": 0.344,
+   "score_short": 0.585,
+   "above_vwap": false,
+   "display": "LH",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 67.5,
+    "setup": "gap_go",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "IQV",
+   "date": "2026-10-29",
+   "last": 274.47,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 282.415,
+    "pdl": 269.0,
+    "pdc": 279.1,
+    "hod": 279.36,
+    "lod": 274.22,
+    "orh": 279.36,
+    "orl": 274.39
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": -1.66,
+   "gap_pct": -0.8,
+   "rs_vs_spy": -1.17,
+   "vwap": 277.4091,
+   "rvol": 2.05,
+   "score_long": 0.302,
+   "score_short": 0.815,
+   "above_vwap": false,
+   "display": "IQV",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 67.1,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "PG",
+   "date": "2026-10-29",
+   "last": 159.2,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 159.57,
+    "pdl": 157.4,
+    "pdc": 158.365,
+    "pmh": 160.88,
+    "pml": 159.75,
+    "hod": 160.95,
+    "lod": 158.655,
+    "orh": 160.95,
+    "orl": 159.01
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 0.53,
+   "gap_pct": 1.09,
+   "rs_vs_spy": 1.02,
+   "vwap": 159.1702,
+   "rvol": 1.35,
+   "score_long": 0.703,
+   "score_short": 0.209,
+   "above_vwap": true,
+   "display": "PG",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 65.7,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "KO",
+   "date": "2026-10-29",
+   "last": 92.375,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 92.355,
+    "pdl": 90.58,
+    "pdc": 91.86,
+    "pmh": 93.5745,
+    "pml": 91.73,
+    "hod": 92.9,
+    "lod": 92.03,
+    "orh": 92.9,
+    "orl": 92.23
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 0.56,
+   "gap_pct": 0.72,
+   "rs_vs_spy": 1.05,
+   "vwap": 92.4541,
+   "rvol": 0.81,
+   "score_long": 0.292,
+   "score_short": 0.461,
+   "above_vwap": false,
+   "display": "KO",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 64.9,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "V",
+   "date": "2026-10-29",
+   "last": 409.51,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 404.69,
+    "pdl": 394.0,
+    "pdc": 401.04,
+    "pmh": 409.0,
+    "pml": 400.6,
+    "hod": 412.13,
+    "lod": 403.72,
+    "orh": 411.77,
+    "orl": 403.72
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 2.11,
+   "gap_pct": 0.96,
+   "rs_vs_spy": 2.6,
+   "vwap": 410.3711,
+   "rvol": 2.31,
+   "score_long": 0.572,
+   "score_short": 0.622,
+   "above_vwap": false,
+   "display": "V",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 64.5,
+    "setup": "pullback",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "GRMN",
+   "date": "2026-10-29",
+   "last": 281.02,
+   "last_time": "13:29",
+   "phase": "regular",
+   "levels": {
+    "pdh": 296.0,
+    "pdl": 265.465,
+    "pdc": 272.25,
+    "pmh": 274.5,
+    "pml": 274.5,
+    "hod": 283.07,
+    "lod": 273.705,
+    "orh": 281.1,
+    "orl": 273.705
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 3.22,
+   "gap_pct": 0.72,
+   "rs_vs_spy": 3.71,
+   "vwap": 279.0225,
+   "rvol": 1.17,
+   "score_long": 0.738,
+   "score_short": 0.121,
+   "above_vwap": true,
+   "display": "GRMN",
+   "daily": {
+    "direction": "long",
+    "grade": "B",
+    "score": 64.0,
+    "setup": "oversold_bounce",
+    "source": "daily setup"
+   },
+   "best": null
+  },
+  {
+   "symbol": "CHRW",
+   "date": "2026-10-29",
+   "last": 126.54,
+   "last_time": "13:29",
+   "phase": "regular",
+   "levels": {
+    "pdh": 136.09,
+    "pdl": 125.62,
+    "pdc": 127.5,
+    "pmh": 127.1694,
+    "pml": 127.0,
+    "hod": 129.3771,
+    "lod": 123.93,
+    "orh": 129.3771,
+    "orl": 126.37
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": -0.75,
+   "gap_pct": 0.95,
+   "rs_vs_spy": -0.26,
+   "vwap": 126.3256,
+   "rvol": 1.55,
+   "score_long": 0.586,
+   "score_short": 0.385,
+   "above_vwap": true,
+   "display": "CHRW",
+   "daily": {
+    "direction": "short",
+    "grade": null,
+    "score": null,
+    "setup": "in play",
+    "source": "in play"
+   },
+   "best": null
+  },
+  {
+   "symbol": "GEHC",
+   "date": "2026-10-29",
+   "last": 76.89,
+   "last_time": "13:30",
+   "phase": "regular",
+   "levels": {
+    "pdh": 77.88,
+    "pdl": 74.64,
+    "pdc": 75.8445,
+    "pmh": 77.35,
+    "pml": 75.92,
+    "hod": 77.33,
+    "lod": 75.4,
+    "orh": 76.97,
+    "orl": 75.4
+   },
+   "triggers": [],
+   "plans": [],
+   "change_pct": 1.38,
+   "gap_pct": 0.46,
+   "rs_vs_spy": 1.87,
+   "vwap": 76.7169,
+   "rvol": 1.15,
+   "score_long": 0.727,
+   "score_short": 0.126,
+   "above_vwap": true,
+   "display": "GEHC",
+   "daily": {
+    "direction": "long",
+    "grade": null,
+    "score": null,
+    "setup": "in play",
+    "source": "in play"
+   },
+   "best": null
+  }
+ ],
+ "errors": [
+  "news feed finance.yahoo.com: HTTP 404 for https://finance.yahoo.com/news/rssindex",
+  "Yahoo returned too few bars for EA",
+  "Yahoo returned too few bars for MCL=F",
+  "Yahoo returned too few bars for MSGR",
+  "Yahoo returned too few bars for VYLR",
+  "Yahoo returned too few bars for WBD"
+ ]
+}
