@@ -128,7 +128,7 @@ def scan(cfg, fetcher, tickers=None, use_news=True, use_fundamentals=True, use_i
         swing = not c["plan"]["setup"].startswith(("gap_go", "gap_down"))
         if c["kind"] != "future" and use_news:
             if s not in news_cache:
-                news_cache[s] = catalysts.ticker_news(fetcher, s, t2c, hours=72,
+                news_cache[s] = catalysts.ticker_news(fetcher, s, t2c, hours=72, name=c.get("name"),
                                                       now=now.astimezone(datetime.timezone.utc))
             items = news_cache[s]
             earn = catalysts.earnings_context(s, cal, today)

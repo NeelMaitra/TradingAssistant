@@ -11,7 +11,7 @@ import re
 import xml.etree.ElementTree as ET
 
 from . import baseline, data
-from .headlines import score as score_text
+from .headlines import score as score_text, short_name
 from .net import NetError
 
 NASDAQ_EARNINGS = "https://api.nasdaq.com/api/calendar/earnings?date=%s"
@@ -153,8 +153,30 @@ def current_8k(fetcher, c2t):
 
 # ------------------------------------------------------------ per-ticker news
 
-def ticker_news(fetcher, sym, t2c=None, hours=72, now=None, sec=True):
-    """Headlines (Yahoo RSS) + 8-Ks (EDGAR) for one ticker, scored, newest first."""
+def relevant(it, sym, name=None):
+    """Yahoo's per-ticker feed mixes in stories about other companies. Keep a headline
+    only if it names the ticker or the company; SEC filings are always the company's own."""
+    if it.get("kind") == "filing":
+        return True
+    hay = "%s %s" % (it.get("title") or "", it.get("summary") or "")
+    t = re.escape(sym.upper().replace("-", "."))
+    if len(sym) >= 2 and re.search(r"(?<![A-Za-z0-9])%s(?![A-Za-z0-9])" % t, hay):
+        return True
+    if re.search(r"\$%s\b|\(%s\)|(?:NYSE|NASDAQ|Nasdaq)\s*:\s*%s\b" % (t, t, t), hay):
+        return True
+    sn = short_name(name or "")
+    if sn and sn != sym.upper():          # name equal to the bare ticker is a placeholder
+        if len(sn) >= 3 and re.search(r"\b%s" % re.escape(sn), hay, re.I):
+            return True
+        first = sn.split()[0]
+        if len(first) >= 5 and re.search(r"\b%s\b" % re.escape(first), hay, re.I):
+            return True
+    return False
+
+
+def ticker_news(fetcher, sym, t2c=None, hours=72, now=None, sec=True, name=None):
+    """Headlines (Yahoo RSS) + 8-Ks (EDGAR) for one ticker, scored, newest first.
+    Headlines that do not mention the ticker or company name are dropped."""
     news = _news()
     now = now or data.now_ny().astimezone(datetime.timezone.utc)
     items = []
@@ -176,6 +198,8 @@ def ticker_news(fetcher, sym, t2c=None, hours=72, now=None, sec=True):
     keep = []
     for it in news.dedupe(news.tag(items, {sym: None})):
         if it.get("time") and it["time"] < cutoff:
+            continue
+        if not relevant(it, sym, name):
             continue
         s, tags, hits = score_text("%s. %s" % (it["title"], it.get("summary") or "")[:600])
         it["sentiment"], it["catalysts"], it["phrases"] = s, tags, hits

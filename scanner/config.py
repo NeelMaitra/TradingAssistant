@@ -62,7 +62,6 @@ DEFAULTS = {
     # In-play discovery
     "inplay": {
         "rss_feeds": [
-            "https://finance.yahoo.com/news/rssindex",
             "https://www.cnbc.com/id/100003114/device/rss/rss.html",
             "https://feeds.content.dowjones.io/public/rss/mw_topstories",
             "https://www.nasdaq.com/feed/rssoutbound?category=Markets",

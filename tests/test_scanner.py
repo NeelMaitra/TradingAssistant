@@ -130,6 +130,16 @@ class TestCatalysts(unittest.TestCase):
         self.assertLess(s_swing, s_day)
         self.assertTrue(any("binary risk" in w for w in why))
 
+    def test_relevance_filter(self):
+        mk = lambda t: {"title": t, "summary": "", "kind": "headline"}
+        self.assertTrue(catalysts.relevant(mk("Moderna jumps on vaccine data"), "MRNA", "Moderna, Inc."))
+        self.assertFalse(catalysts.relevant(mk("Merck surges 5% on sales beat"), "MRNA", "Moderna, Inc."))
+        self.assertTrue(catalysts.relevant(mk("Why EBAY is moving"), "EBAY", "eBay Inc."))
+        self.assertTrue(catalysts.relevant(mk("eBay jumps on results"), "EBAY", "eBay Inc."))
+        self.assertFalse(catalysts.relevant(mk("Q3 V-shaped recovery"), "V", "Visa Inc."))
+        self.assertTrue(catalysts.relevant(mk("Visa beats estimates"), "V", "Visa Inc."))
+        self.assertTrue(catalysts.relevant({"title": "8-K", "kind": "filing"}, "MRNA", None))
+
     def test_current_8k_feed(self):
         f = fetcher()
         _t2c, c2t = catalysts.cik_map(f)

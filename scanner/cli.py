@@ -153,7 +153,7 @@ def cmd_ticker(a, cfg):
     p = Pack(bars[s])
     i = len(p.bars) - 1
     t2c, _ = catalysts.cik_map(f) if f.sec_ua else ({}, {})
-    items = catalysts.ticker_news(f, s, t2c, hours=96) if kind != "future" else []
+    items = catalysts.ticker_news(f, s, t2c, hours=96, name=info.get("name")) if kind != "future" else []
     cal = catalysts.earnings_calendar(f, now.date()) if kind == "stock" else {}
     earn = catalysts.earnings_context(s, cal, now.date())
     fm = fundamentals.metrics(f, s, t2c) if kind == "stock" else None
