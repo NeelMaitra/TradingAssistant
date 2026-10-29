@@ -27,6 +27,7 @@ DEFAULTS = {
         "watchlist": [],              # your own tickers, always scanned
         "min_price": 5.0,
         "min_avg_dollar_volume": 20_000_000,   # 20-day average, stocks only
+        "min_atr_pct": 0.8,           # skip pinned stocks (pending buyouts trade in a tiny range)
     },
 
     # Scoring weights (each component is scored 0..1, then weighted to 100)

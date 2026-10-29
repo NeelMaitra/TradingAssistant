@@ -163,6 +163,8 @@ def run(cfg, fetcher, symbols, years=5, only=None, target_r=2.0, max_hold=10, fi
                 dv = p.dollar_vol20[i]
                 if b.c[i] < cfg["universe"]["min_price"] or dv is None or dv < cfg["universe"]["min_avg_dollar_volume"]:
                     continue
+                if not p.atr14[i] or 100.0 * p.atr14[i] / b.c[i] < cfg["universe"].get("min_atr_pct", 0.8):
+                    continue
             found = setups.detect(p, i, cfg)
             if only:
                 found = [f for f in found if f["setup"] in only]

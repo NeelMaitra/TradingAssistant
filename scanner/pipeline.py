@@ -38,7 +38,10 @@ def liquid(info, b, p, cfg):
     if b.c[-1] < u["min_price"]:
         return False
     dv = p.dollar_vol20[-1]
-    return dv is not None and dv >= u["min_avg_dollar_volume"]
+    if dv is None or dv < u["min_avg_dollar_volume"]:
+        return False
+    a = p.atr14[-1]
+    return a is not None and 100.0 * a / b.c[-1] >= u.get("min_atr_pct", 0.8)
 
 
 def scan(cfg, fetcher, tickers=None, use_news=True, use_fundamentals=True, use_inplay=True,
