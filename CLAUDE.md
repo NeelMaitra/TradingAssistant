@@ -54,7 +54,7 @@ Read the JSON when answering questions; open `dashboard.html` for the visual.
 | `scanner/backtest.py`, `journal.py` | R-multiple backtest, forward-test signal log, trade log |
 | `scanner/report.py`, `cli.py` | terminal/Markdown/HTML output, commands |
 
-Standard-library Python 3.9+ only. Keep it that way unless Neel agrees to a dependency.
+Standard-library Python 3.10+ only. Keep it that way unless Neel agrees to a dependency.
 
 ## Rules when working in this repo
 

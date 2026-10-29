@@ -15,7 +15,7 @@ Two layers:
 
 Built on [trader-skill](https://github.com/Jakeschincariol/trader-skill) (MIT). Its 11 Claude
 skills ship in `.claude/skills/trader-*` and the scanner reuses their SEC, news and calendar code.
-Standard-library Python 3.9+, no API keys, no pip installs.
+Standard-library Python 3.10+, no API keys, no pip installs.
 
 ## The score
 
